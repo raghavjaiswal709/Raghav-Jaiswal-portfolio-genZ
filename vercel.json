@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "name": "portfolio",
+  "builds": [{ "src": "react-scripts start", "use": "@vercel/node" }],
+  "routes": [{ "src": "/(.*)", "dest": "/react-scripts start" }]
+}
